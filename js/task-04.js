@@ -14,8 +14,8 @@ const sub = () => {
   spanEl.textContent = counterValue;
 };
 
-decrBtn.addEventListener("click", add);
-incrBtn.addEventListener("click", sub);
+decrBtn.addEventListener("click", sub);
+incrBtn.addEventListener("click", add);
 
 // Счетчик состоит из спана и кнопок, которые, при клике, должны
 // увеличивать и уменьшать его значение на единицу.
